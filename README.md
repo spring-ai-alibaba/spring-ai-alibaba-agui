@@ -10,10 +10,8 @@ Compatible with [AG-UI protocol][AG-UI] with [CopilotKit] integration
 flowchart LR
     User((User))
     CopilotKit(Copilot Kit)
-    SAA Adaptor (SAA AGUI Adaptor
-    Typescript)
-    SAAServer(SAA AGUI Adaptor
-    Java)
+    SAAAdaptor(SAA AGUI Adaptor Typescript)
+    SAAServer(SAA AGUI Adaptor Java)
     Agent(Agent)
     subgraph "AG-UI-APP"
         CopilotKit --> SAAAdaptor
